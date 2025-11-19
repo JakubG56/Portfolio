@@ -1,0 +1,28 @@
+Raport z testów
+
+Tytuł: Przycisk Remove na stronie głównej nie działa.
+Opis: Przy wpisaniu loginu: problem_user oraz hasła: secret_sauce w formularzu, a następnie kliknięciu przycisku "Add to Card" 
+nie jest możliwe usunięciu produktu za pomocą przycisku "Remove"
+Lista kroków do reprodukcji:
+1. Wejdz na stronę https://www.saucedemo.com/
+2. Formularz wypełnij za pomocą danych: login: problem_user oraz hasło: secret_sauce
+3. Dodaj dowolny produkt ze strony głównej za pomocą przycisku "Add to Card"
+4. Kliknij przycisk "Remove"
+Oczekiwany rezultat: Przycisk Remove działa, jest możliwe usunięcie produktu.
+Rzeczywisty rezultat: Przycisk Remove nie działa, zachowuje się jak martwe pole.
+Załącznik: zdj.mp4
+
+Tytuł: Nie poprawna walidacja formularza na stronie przy składaniu zamówienia
+Opis: Przy wpisaniu loginu: problem_user oraz hasła: secret_sauce w formularzu, a następnie kliknięciu przycisku "Add to Card" oraz kliknięciu przycisku checkout nie jest możliwe wypełnienie formularza. Po wpisaniu imienia, a następnie próbie wpisania nazwiska w drugiej komórce, imię się kasuję,a wpisanie nazwiska nie jest możliwe.
+Lista kroków do reprodukcji:
+1. Wejdz na stronę https://www.saucedemo.com/
+2. Formularz wypełnij za pomocą danych: login: problem_user oraz hasło: secret_sauce
+3. Dodaj dowolny produkt ze strony głównej za pomocą przycisku "Add to Card"
+4. Kliknij w ikonę koszyka w prawym górnym rogu
+5. Kliknij przycisk Checkout
+6. Wpisz imię w pierwszej komórce
+7. Wypróbuj wpisać nazwisko w drugiej komórce
+Oczekiwany rezultat: Możliwe jest wypełnienie drugiej komórki
+Rzeczywisty rezultat: Wypełnienie drugiej komórki nie jest możliwe
+Załącznik: zdj.mp4
+
